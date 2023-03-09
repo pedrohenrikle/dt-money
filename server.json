@@ -1,0 +1,44 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2023-03-09T16:58:26.378Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2023-03-09T16:12:26.378Z"
+    },
+    {
+      "description": "Carro novo",
+      "category": "Carro",
+      "price": 25000,
+      "type": "outcome",
+      "createdAt": "2023-03-09T20:29:50.055Z",
+      "id": 3
+    },
+    {
+      "description": "Salário",
+      "category": "Sslário",
+      "price": 5000,
+      "type": "income",
+      "createdAt": "2023-03-09T20:30:22.622Z",
+      "id": 4
+    },
+    {
+      "description": "Sorvete",
+      "category": "Alimentação",
+      "price": 5,
+      "type": "outcome",
+      "createdAt": "2023-03-09T20:31:12.681Z",
+      "id": 5
+    }
+  ]
+}
