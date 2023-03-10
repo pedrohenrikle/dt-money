@@ -44,10 +44,42 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O DT Money é uma aplicação para auxiliar o usuário a monitorar a entrada e saída de capital. Tendo funcionalidades como filtro e re-adaptação ao foco da busca interna.
+O DT Money é uma aplicação para auxiliar o usuário a monitorar a entrada e saída de capital. Tendo funcionalidades como filtro e re-adaptação ao foco da busca interna. Devido à aplicação funcionar com uma API, é preciso que baixe como dependência de desenvolvimento a bibloteca [JSON Server](https://github.com/typicode/json-server).
 
-- [Visite o projeto online](https://dt-money-liart.vercel.app/)
+- [Visite o layout não funcional online](https://dt-money-liart.vercel.app/)
 
+<br>
+
+## 💾 Como rodar
+
+Para fazer a aplicação funcionar, baixe os arquivos e instale as dependências necessárias
+
+```bash
+# Clone Repository
+$ git clone https://github.com/pedrohenrikle/dt-money.git
+
+# Install all dependencies
+$ npm install
+```
+Após, instale a dependência de desenvolvimento [JSON Server](https://github.com/typicode/json-server).
+
+```bash
+# Install JSON Server
+$ npm i -D json-server
+```
+Então, abra dois terminais e execute o servidor para a API e para o App
+```bash
+# Run JSON Server
+$ npx json-server server.json -p 3333 -w -d 500
+```
+
+```bash
+# Run App localhost
+$ npm run dev
+```
+Agora pode abrir no localhost a aplicação e está pronto! Aproveite !
+
+<br>
 
 ## 🔖 Layout
 

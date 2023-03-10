@@ -18,6 +18,12 @@ export const SearchFormContainer = styled.form`
   }
 
   button {
+    @media (max-width: 600px) {
+      p {
+        display: none;
+      }
+    }
+
     cursor: pointer;
     display: flex;
     align-items: center;

@@ -11,6 +11,10 @@ export const SummaryContainer = styled.section`
   gap: 2rem;
 
   margin-top: -5rem;
+
+  @media (max-width: 600px) {
+    overflow-x: auto;
+  }
 `
 
 interface SummaryCardProps {
